@@ -1,5 +1,6 @@
 body{
-    background-color: #E0E1E2;
+    background-color: #C2E6FA;
+    font-family: 'Roboto Slab', serif;
 }
 .carousel-item{
     object-fit: cover;
@@ -9,6 +10,7 @@ body{
 }
 section h1{
     color:red;
+    font-family: 'Roboto Slab', serif;
 }
 #row-cat{
     background-color: #E0E1E2;
@@ -16,18 +18,28 @@ section h1{
 .display-4{
     color: red;
 }
-.hero-tex{
-    background-color:orange;
-    color:black;
-    /* font-size: 4rem; */
-    font-weight: 500;
-    font-family: "FS Lola", "Trebuchet MS", Arial, Helvetica, sans-serif;
-    margin: 0 0 1.5rem;
-}
 .jumbotron{
     background-size: cover;
-    background-image: url(/images/istockphoto-936722250-612x612.jpg);
+    background-image: url(/images/earn_miles_airline_image2x1.jpeg);
+    text-align: center;
 }
-h2{
+/* h2{
     color: orange;
+} */
+#hero-body{
+    background-color: #C2E6FA;
 }
+.navbar{
+    background-color: #F69F48;
+}
+.card-body p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+  .card-body h5{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+  }
